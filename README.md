@@ -38,11 +38,6 @@ File:
 ```bash
   royals_querying_prompts.ipynb
 ```
-
-This file showcases how I got to the answers that I got with the ability to easily change thresholds to get to more specific with answers someone might want.
-
-Most of the answers are straight forward and dont need a lot of explanation.
-
 ## Questionnaire
 
 - File:

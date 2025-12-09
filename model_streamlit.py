@@ -31,7 +31,7 @@ thrower_eval, thrower_ranks, errant_receiver_eval, errant_receiver_ranks, model_
 with thrower_eval:
     st.subheader('The Thrower Evaluation Model is composed of two categorical features to predict if a thrower has the capability to throw an out based on parameters.')
     st.subheader('1. Controllables')
-    st.write('These are things that the thrower can control over and can be trained to improve. Things like how fast they can the ball from the glove to their hand and how fast they can throw the ball.')
+    st.write('These are things that the thrower have control over and can be trained to improve. Things like how fast they can get the ball from the glove to their hand and how fast they can throw the ball.')
     st.subheader('2. Noncontrollables')
     st.write('These are the situational factors that the thrower has to overcome. Things like distance between the thrower and receiver or the speed at which the batter is running would fall under this category.')
     st.subheader('By typing in a players name (or in this case, their ID) this will predict how their probability on converting an Out based on the parameters.')
@@ -82,7 +82,7 @@ with thrower_eval:
 
         display_exchange_time, display_throw_velocity = st.columns(2)
         with display_exchange_time:
-            st.subheader('Average Exchagne Time:')
+            st.subheader('Average Exchange Time:')
             st.header(f'{round(thrower_avg_exchange_time, 2)} (Rank: {round(thrower_avg_exchange_time_rank)})')
         with display_throw_velocity:
             st.subheader('Average Throw Velocity:')
@@ -111,7 +111,7 @@ with thrower_ranks:
 with errant_receiver_eval:
     st.subheader('The Errant Receiver Evaluation Model is composed of two categorical features to predict if a 1st Baseman is capable of catching an errant throw based on parameters.')
     st.subheader('1. Controllables')
-    st.write("The most notable metric that can be controlledby the receiver is their distance to the base. Each receiver's distance was averaged to get this")
+    st.write("The most notable metric that can be controlled by the receiver is their distance to the base. Each receiver's distance was averaged to get this value.")
     st.subheader('2. Noncontrollables')
     st.write('These are the situational factors that the receiver cannot control. Things like distance between the thrower and receiver or the speed at which the batter is running would fall under this category.')
     st.subheader('By typing in a players name (or in this case, their ID) this will predict how their probability on converting an Out based on the parameters.')
