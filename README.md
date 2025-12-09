@@ -9,7 +9,7 @@ Thank you for considering my application and giving me the opportunity to showca
 
 ## Modeling Project
 Files:
-```http
+```bash
 Model Creation
   royals_modelling.ipynb
 
@@ -18,7 +18,11 @@ Streamlit Web App
 ```
 This Streamlit Application gives interactivity to the user to put the Throwers or Errant Receiver in different situations and predict whether or not the play will result in the runner being out or safe.
 
-The application is available through this link but can be ran locally in the folder by running the following code:
+The application is available through this link.
+
+[Streamlit App](https://jason-reese-royals-analyst-project.streamlit.app/)
+
+But can be ran locally in the folder by running the following code:
 ```bash
 streamlit run model_streamlit.py
 ```
@@ -31,7 +35,7 @@ The program has tabs for ranks and information about the models that give a bett
 
 ## Querying Prompts
 File:
-```http
+```bash
   royals_querying_prompts.ipynb
 ```
 
@@ -42,6 +46,6 @@ Most of the answers are straight forward and dont need a lot of explanation.
 ## Questionnaire
 
 - File:
-```http
+```bash
   Kansas City Royals Questionnare.pdf
 ```
