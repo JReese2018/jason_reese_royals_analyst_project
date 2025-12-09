@@ -129,7 +129,7 @@ with errant_receiver_eval:
     bounce_velocity_max = round(df['bounce_velocity'].max())
 
     ## Player ID
-    receiver_ID = st.number_input('Receiver ID', min_value=1, value=1, format="%d")
+    receiver_ID = st.number_input('Receiver ID', min_value=1, value=13, format="%d")
     st.caption('If you need a list of applicable IDs, check out the "Errant Receiver" page for all the IDs')
 
     batter_velo_at_throw = st.slider("Batter Velocity At Throw", 5, batter_velo_at_throw_max, batter_velo_at_throw_mean)
