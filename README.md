@@ -20,7 +20,7 @@ This Streamlit Application gives interactivity to the user to put the Throwers o
 
 The application is available through this link.
 
-[Streamlit App](https://jason-reese-royals-analyst-project.streamlit.app/)
+## [Streamlit App Link](https://jason-reese-royals-analyst-project.streamlit.app/)
 
 But can be ran locally in the folder by running the following code:
 ```bash
