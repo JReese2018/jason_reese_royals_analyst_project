@@ -99,7 +99,7 @@ with thrower_eval:
         st.caption('More information about this in the "Model Information" page.')
     ## Error Handling
     except:
-        st.subheader(f'**{thrower_ID}** does not exsit within this dataset.')
+        st.subheader(f'**{thrower_ID}** does not exist within this dataset.')
 
 with thrower_ranks:
     thrower_avg = thrower_avg[['thrower_id', 'exchange_time', 'exchange_time_rank', 'throw_velocity' ,'throw_velocity_rank']]
@@ -177,7 +177,7 @@ with errant_receiver_eval:
         st.caption('More information about this in the "Model Information" page.')
     ## Error Handling
     except:
-        st.subheader(f'**{receiver_ID}** does not exsit within this dataset.')
+        st.subheader(f'**{receiver_ID}** does not exist within this dataset.')
 
 with errant_receiver_ranks:
     receiver_avg = receiver_avg[['receiver_id', 'receiver_dist_from_1b', 'receiver_dist_from_1b_rank']]
